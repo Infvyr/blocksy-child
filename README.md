@@ -1,5 +1,5 @@
 # blocksy-child
-This is a custom child theme boilerplate for WordPress Blocksy Theme
+This is my custom child theme boilerplate for WordPress Blocksy Theme
 
 ### Presets
 Before you execute any scripts from package.json you need to create this file
