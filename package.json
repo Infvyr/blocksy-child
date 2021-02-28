@@ -1,7 +1,7 @@
 {
-  "name": "sleet",
+  "name": "blocksy-child",
   "version": "1.0.0",
-  "description": "Simple theme for starting the theme building from scratch.",
+  "description": "Child theme for Blocksy",
   "main": "index.js",
   "scripts": {
     "dev": "gulp",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Infvyr/WP-Sleet-Theme.git"
+    "url": "git+https://github.com/Infvyr/blocksy-child.git"
   },
   "author": "Infvyr",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Infvyr/WP-Sleet-Theme/issues"
+    "url": "https://github.com/Infvyr/blocksy-child/issues"
   },
-  "homepage": "https://github.com/Infvyr/WP-Sleet-Theme#readme",
+  "homepage": "https://github.com/Infvyr/blocksy-child#blocksy-child",
   "devDependencies": {
     "@babel/cli": "^7.12.10",
     "@babel/core": "^7.12.10",
