@@ -1,37 +1,3 @@
-.ct-header{
-  > [data-device='desktop']{
-    display: none;
-  }
-
-  > [data-device='mobile']{
-    display: block;
-
-    .ct-container{
-      @include screen('tsu'){
-        grid-template-columns: 1fr 1fr 1fr;
-      }
-
-      > [data-column="start"]{
-        //@media screen and (min-width: $tablet-small){
-        //  grid-column: 2 / 3;
-        //  justify-content: center;
-        //}
-        @include screen('tsu'){
-          grid-column: 2 / 3;
-          justify-content: center;
-        }
-      }
-
-      > [data-column="end"]{}
-    }
-  }
-  @include screen('dsu'){
-    //@include position(fixed !important, top 0 left 0);
-    @include position(absolute !important, top 0 left 0);
-    width: 100%;
-  }
-}
-
 #offcanvas{
   .ct-panel-content[data-device="mobile"]{
     display: block;

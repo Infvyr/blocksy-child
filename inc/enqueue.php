@@ -6,15 +6,16 @@
 function blocksy_child_enqueue_assets(){
 	wp_enqueue_style( 'blocksy-parent', get_template_directory_uri() . '/style.css' );
 	wp_enqueue_style( 'blocksy-child', get_stylesheet_uri() );
+	wp_enqueue_style( 'blocksy-custom', CURRENT_THEME_PATH . '/dist/assets/css/style-child.css' );
 
 	// jquery theme script
-	wp_enqueue_script(
+	/*wp_enqueue_script(
 		'blocksy-child-jq',
 		CURRENT_THEME_PATH . '/dist/assets/js/child-jq.min.js',
 		['jquery'],
 		false,
 		true
-	);
+	);*/
 
 	// vanilla js theme script
 	wp_enqueue_script(
